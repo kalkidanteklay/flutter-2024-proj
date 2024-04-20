@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
           '/user_page': (context) => UserPage(),
           '/login_page': (context) => LoginPage(),
           '/fav_page': (context) => FavoritesPage(),
+          '/admin': (context) => AdminPage(),
         });
   }
 }
