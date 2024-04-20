@@ -101,7 +101,7 @@ class _SignupPageState extends State<SignupPage> {
                 const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 25),
                   child: Text(
-                    "Congratulations on taking the first step towards finding your new furry friend!",
+                    "Congratulations on taking the first step towards finding your new furry friend!!",
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
                   ),
                 ),
