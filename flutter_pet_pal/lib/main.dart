@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_pet_pal/presentation/screens/user_page.dart';
 import 'package:flutter_pet_pal/presentation/screens/signup_page.dart';
 import 'package:flutter_pet_pal/presentation/screens/admin.dart';
+import 'package:flutter_pet_pal/presentation/screens/intro_page.dart';
+import 'package:flutter_pet_pal/presentation/screens/login_page.dart';
+import 'package:flutter_pet_pal/presentation/screens/fav_page.dart';
 
 void main() {
   runApp(const MyApp());
