@@ -16,8 +16,11 @@ class MyApp extends StatelessWidget {
         home: SignupPage(),
         // theme: ThemeData(primarySwatch: Colors.orange),
         routes: {
+          '/intro_page': (context) => IntroPage(),
           '/signup_page': (context) => SignupPage(),
           '/user_page': (context) => UserPage(),
+          '/login_page': (context) => LoginPage(),
+          '/fav_page': (context) => FavoritesPage(),
         });
   }
 }
