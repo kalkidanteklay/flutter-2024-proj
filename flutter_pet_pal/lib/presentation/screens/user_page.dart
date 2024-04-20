@@ -51,8 +51,7 @@ class _UserPageState extends State<UserPage> {
           ],
         ),
         drawer: AppDrawer(),
-        //   backgroundColor: Colors.orange[200],
-        // ),
+        
         body: Column(
           children: [
             //find your bestfriend!
@@ -87,8 +86,7 @@ class _UserPageState extends State<UserPage> {
                 //bunny page
                 BunnyTab(),
 
-                //fish page
-                // FishTab(),
+                
               ],
             ))
           ],
