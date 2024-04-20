@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(FavoritesPage());
-}
-
 class Pet {
   final String name;
   final String imageUrl;
@@ -19,9 +15,28 @@ class Pet {
 class FavoritesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: FavoritesPets(),
+    return Scaffold(
+      appBar: AppBar(
+        leading: IconButton(
+          icon: Icon(
+            Icons.arrow_back,
+            color: Colors.grey[800],
+            size: 28,
+          ),
+          onPressed: () {
+            Navigator.pop(context); // Return to the previous page
+          },
+        ),
+        title: Center(
+          child: Text(
+            'Favorite Pets',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+        ),
+        backgroundColor: Colors.orange[300],
+      ),
+      body: FavoritesPets(),
+      backgroundColor: Colors.grey[200],
     );
   }
 }
@@ -62,36 +77,14 @@ class FavoritesPets extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        leading: IconButton(
-          icon: Icon(
-            Icons.arrow_back,
-            color: Colors.grey[800],
-            size: 28,
-          ),
-          onPressed: () {
-            Navigator.pushNamed(context, '/user_page'); //opens userpage page
-          },
-        ),
-        title: Center(
-          child: Text(
-            'Favorite Pets',
-            style: TextStyle(fontWeight: FontWeight.bold),
-          ),
-        ),
-        backgroundColor: Colors.orange[300],
+    return Container(
+      padding: EdgeInsets.all(25),
+      child: ListView.builder(
+        itemCount: favoritePets.length,
+        itemBuilder: (context, index) {
+          return _buildPetCard(context, favoritePets[index]);
+        },
       ),
-      body: Container(
-        padding: EdgeInsets.all(25),
-        child: ListView.builder(
-          itemCount: favoritePets.length,
-          itemBuilder: (context, index) {
-            return _buildPetCard(context, favoritePets[index]);
-          },
-        ),
-      ),
-      backgroundColor: Colors.grey[200],
     );
   }
 
