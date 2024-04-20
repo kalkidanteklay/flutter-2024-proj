@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_pet_pal/presentation/screens/user_page.dart';
-import 'package:flutter_pet_pal/presentation/screens/signup_page.dart';
+import 'package:flutter_pet_pal/presentation/screens/admin.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: SignupPage(),
+        home: AdminPage(),
         // theme: ThemeData(primarySwatch: Colors.orange),
         routes: {
           '/admin': (context) => AdminPage(),
