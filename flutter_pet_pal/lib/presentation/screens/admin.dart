@@ -98,7 +98,7 @@ class _AdminPageState extends State<AdminPage> {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(20.0),
                               image: const DecorationImage(
-                                image: AssetImage('../../images/cat5.jpg'),
+                                image: AssetImage('lib/images/cat5.jpg'),
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -135,7 +135,7 @@ class _AdminPageState extends State<AdminPage> {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(20.0),
                               image: const DecorationImage(
-                                image: AssetImage('../../images/Forms.jpg'),
+                                image: AssetImage('lib/images/Forms.jpg'),
                                 fit: BoxFit.cover,
                               ),
                             ),
