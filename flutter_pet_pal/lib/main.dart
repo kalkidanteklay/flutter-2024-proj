@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: SignupPage(),
+        home: IntroPage(),
         // theme: ThemeData(primarySwatch: Colors.orange),
         routes: {
           '/intro_page': (context) => IntroPage(),
