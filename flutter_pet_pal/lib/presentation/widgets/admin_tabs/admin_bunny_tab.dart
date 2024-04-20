@@ -18,7 +18,7 @@ class BunnyTab extends StatelessWidget {
       "Name: Daisy",
       'Age: 2',
       'Gender: Female',
-      'Species: Netherland Dwarf',
+      'Species: Dwarf',
     ],
     [
       'lib/images/bunny3.jpeg',

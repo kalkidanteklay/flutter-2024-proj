@@ -43,7 +43,7 @@ class DogsTab extends StatelessWidget {
       itemCount: dogsAvailable.length,
 
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2, childAspectRatio: 0.5),
+          crossAxisCount: 2, childAspectRatio: 0.45),
       itemBuilder: (context, index) {
         return AllTile(
           imagePath: dogsAvailable[index][0],
