@@ -36,19 +36,7 @@ class AllTile extends StatelessWidget {
                 height: 200,
                 fit: BoxFit.fill,
               ),
-            //   Positioned(
-            //       bottom: 2,
-            //       left: 3,
-            //       right: 3,
-            //       child: MyButton(
-            //         text: 'Adopt Me',
-            //         onTap: () {
-            //           Navigator.pushNamed(context, '/form_page');
-            //         },
-            //         height: 40,
-            //         width: 60,
-            //         myColor: Color.fromRGBO(255, 184, 77, 0.525),
-            //       ))
+           
             ]),
 
             //name
@@ -93,7 +81,7 @@ class AllTile extends StatelessWidget {
                   icon: Icon(
                     Icons.edit,
                     color: Colors.grey[800],
-                    size: 28,
+                    size: 20,
                   ),
                   onPressed: () {},
 
@@ -102,7 +90,7 @@ class AllTile extends StatelessWidget {
                   icon: Icon(
                     Icons.delete,
                     color: Colors.grey[800],
-                    size: 28,
+                    size: 20,
                   ),
                   onPressed: () {},
                   
