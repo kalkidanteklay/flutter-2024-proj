@@ -60,7 +60,7 @@ class AllTile extends StatelessWidget {
               children: [
                 Text(
                   name,
-                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600),
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
                 ),
                 Spacer(),
                 IconButton(
