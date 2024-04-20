@@ -3,7 +3,7 @@ import 'FormScreen.dart';
 import 'package:flutter_pet_pal/presentation/widgets/admin_tabs/admin_bunny_tab.dart';
 import 'package:flutter_pet_pal/presentation/widgets/admin_tabs/admin_cats_tab.dart';
 import 'package:flutter_pet_pal/presentation/widgets/admin_tabs/admin_dogs_tab.dart';
-import 'package:flutter_pet_pal/presentation/widgets/my_tab.dart';
+import 'package:flutter_pet_pal/presentation/widgets/admin_tab.dart';
 
 void main() {
   runApp(const MaterialApp(
@@ -87,7 +87,7 @@ class _AdminPageState extends State<AdminPage> {
         children: [
        Container(
       width: 350,
-                    height: 250,
+                    height: 230,
                     child: Card(
                       elevation: 4.0,
                       child: Stack(
@@ -98,8 +98,9 @@ class _AdminPageState extends State<AdminPage> {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(20.0),
                               image: const DecorationImage(
-                                image: AssetImage('lib/images/cat5.jpg'),
+                                image: AssetImage('lib/images/totals.jpg'),
                                 fit: BoxFit.cover,
+                                alignment: Alignment.topCenter
                               ),
                             ),
                             alignment: Alignment.bottomCenter,
@@ -107,13 +108,16 @@ class _AdminPageState extends State<AdminPage> {
                           Container(
                             width: 350,
                             height: 50,
-                            child: Text(
+                            child: Center(child: 
+                            Text(
                               'Total pets: 40',
                               style: TextStyle(
                                 fontSize: 20.0,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
+
+                            )
                           ),
                         ],
                       ),
@@ -122,7 +126,7 @@ class _AdminPageState extends State<AdminPage> {
                   SizedBox(width: 5.0),
                   Container(
                     width: 350,
-                    height: 250,
+                    height: 230,
                     child: Card(
                       elevation: 4.0,
                       child: Stack(
@@ -130,7 +134,7 @@ class _AdminPageState extends State<AdminPage> {
                         children: [
                           Container(
                             width: 350,
-                            height: 250,
+                            height: 230,
                             padding: EdgeInsets.all(50),
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(20.0),
@@ -143,7 +147,7 @@ class _AdminPageState extends State<AdminPage> {
                           ),
                           Container(
                             width: 350,
-                            height: 80,
+                            height: 50,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10.0),
                               color: Color.fromARGB(255, 184, 207, 226),
@@ -156,13 +160,15 @@ class _AdminPageState extends State<AdminPage> {
                                 ),
                               ],
                             ),
-                            child: Text(
+                            child: Center(child:
+                            Text(
                               'Pending Approvals: 3',
                               style: TextStyle(
                                 fontSize: 20.0,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
+                            )
                           ),
                         ],
                       ),

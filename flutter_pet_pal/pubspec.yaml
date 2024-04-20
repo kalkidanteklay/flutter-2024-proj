@@ -77,7 +77,7 @@ flutter:
     - lib/images/bunny3.jpeg
     - lib/images/bunny4.jpeg
     - lib/icons/
-    - lib/images/cat5.jpg
+    - lib/images/totals.jpg
     - lib/images/Forms.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
