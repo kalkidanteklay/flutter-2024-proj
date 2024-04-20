@@ -5,6 +5,12 @@ import 'package:flutter_pet_pal/presentation/screens/admin.dart';
 import 'package:flutter_pet_pal/presentation/screens/intro_page.dart';
 import 'package:flutter_pet_pal/presentation/screens/login_page.dart';
 import 'package:flutter_pet_pal/presentation/screens/fav_page.dart';
+import 'package:flutter_pet_pal/presentation/screens/adoption_form.dart';
+import 'package:flutter_pet_pal/presentation/screens/adoption_status_page.dart';
+import 'package:flutter_pet_pal/presentation/screens/appointment_manage.dart';
+import 'package:flutter_pet_pal/presentation/screens/appointment_status.dart';
+import 'package:flutter_pet_pal/presentation/screens/appointment.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -26,6 +32,11 @@ class MyApp extends StatelessWidget {
           '/login_page': (context) => LoginPage(),
           '/fav_page': (context) => FavoritesPage(),
           '/admin': (context) => AdminPage(),
+          '/adoption_form': (context) => AdoptionFormScreen(),
+          '/status': (context) => ApplicationStatusScreen(),
+          '/appointment': (context) => PetVisitScreen(),
+          '/appointment_manage': (context) => AdminApp(),
+          '/appoint_status': (context) => UserAppointmentsScreen(),
         });
   }
 }

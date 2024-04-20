@@ -23,13 +23,7 @@ class AppDrawer extends StatelessWidget {
             leading: const Icon(Icons.home),
             title: const Text('HOME'),
           ),
-          ListTile(
-            onTap: () {
-              Navigator.pushNamed(context, '/form_page');
-            },
-            leading: const Icon(Icons.book_online),
-            title: const Text('FORM'),
-          ),
+          
           ListTile(
             onTap: () {
               Navigator.pushNamed(context, '/fav_page');
@@ -39,17 +33,31 @@ class AppDrawer extends StatelessWidget {
           ),
           ListTile(
             onTap: () {
-              Navigator.pushNamed(context, '/status_page');
+              Navigator.pushNamed(context, '/adoption_form');
             },
-            leading: const Icon(Icons.label),
-            title: const Text('STATUS'),
+            leading: const Icon(Icons.book_online),
+            title: const Text('FORM'),
           ),
           ListTile(
             onTap: () {
-              Navigator.pushNamed(context, '/vet_appt_page');
+              Navigator.pushNamed(context, '/status');
+            },
+            leading: const Icon(Icons.label),
+            title: const Text('APPLICATION STATUS'),
+          ),
+          ListTile(
+            onTap: () {
+              Navigator.pushNamed(context, '/appointment');
             },
             leading: const Icon(Icons.event),
-            title: const Text('VET APPOINTMENT'),
+            title: const Text('VISIT APPOINTMENT'),
+          ),
+          ListTile(
+            onTap: () {
+              Navigator.pushNamed(context, '/appoint_status');
+            },
+            leading: const Icon(Icons.calendar_month),
+            title: const Text('MY APPOINTMENTS'),
           ),
           ListTile(
             onTap: () {
