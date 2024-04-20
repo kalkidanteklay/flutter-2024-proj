@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_pet_pal/presentation/screens/fav_page.dart';
 import 'package:flutter_pet_pal/presentation/widgets/drawer.dart';
 import 'package:flutter_pet_pal/presentation/widgets/my_tab.dart';
 import 'package:flutter_pet_pal/presentation/widgets/tab/bunny_tab.dart';
