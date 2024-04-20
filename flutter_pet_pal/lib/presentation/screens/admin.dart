@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'FormScreen.dart';
-import 'presentation/widgets/admin_tabs/admin_bunny_tab.dart';
-import 'presentation/widgets/admin_tabs/admin_cats_tab.dart';
-import 'presentation/widgets/admin_tabs/admin_dogs_tab.dart';
-import 'presentation/widgets/my_tab.dart';
+import 'package:flutter_pet_pal/presentation/widgets/admin_tabs/admin_bunny_tab.dart';
+import 'package:flutter_pet_pal/presentation/widgets/admin_tabs/admin_cats_tab.dart';
+import 'package:flutter_pet_pal/presentation/widgets/admin_tabs/admin_dogs_tab.dart';
+import 'package:flutter_pet_pal/presentation/widgets/my_tab.dart';
 
 void main() {
   runApp(const MaterialApp(
@@ -98,7 +98,7 @@ class _AdminPageState extends State<AdminPage> {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(20.0),
                               image: const DecorationImage(
-                                image: AssetImage('assets/cat5.jpg'),
+                                image: AssetImage('lib/images/cat5.jpg'),
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -135,7 +135,7 @@ class _AdminPageState extends State<AdminPage> {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(20.0),
                               image: const DecorationImage(
-                                image: AssetImage('assets/Forms.jpg'),
+                                image: AssetImage('lib/images/Forms.jpg'),
                                 fit: BoxFit.cover,
                               ),
                             ),

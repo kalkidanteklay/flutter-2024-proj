@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_pet_pal/presentation/screens/user_page.dart';
 import 'package:flutter_pet_pal/presentation/screens/signup_page.dart';
+import 'package:flutter_pet_pal/presentation/screens/admin.dart';
 
 void main() {
   runApp(const MyApp());
