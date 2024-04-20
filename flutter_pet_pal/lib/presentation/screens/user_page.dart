@@ -44,7 +44,11 @@ class _UserPageState extends State<UserPage> {
                   size: 28,
                 ),
                 onPressed: () {
-                  Navigator.pushNamed(context, '/fav_page'); //opens fav page
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => FavoritesPage()),
+                  );
+                  
                 },
               ),
             ),
