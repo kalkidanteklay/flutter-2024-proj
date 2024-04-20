@@ -36,19 +36,19 @@ class AllTile extends StatelessWidget {
                 height: 200,
                 fit: BoxFit.fill,
               ),
-              Positioned(
-                  bottom: 2,
-                  left: 3,
-                  right: 3,
-                  child: MyButton(
-                    text: 'Adopt Me',
-                    onTap: () {
-                      Navigator.pushNamed(context, '/form_page');
-                    },
-                    height: 40,
-                    width: 60,
-                    myColor: Color.fromRGBO(255, 184, 77, 0.525),
-                  ))
+            //   Positioned(
+            //       bottom: 2,
+            //       left: 3,
+            //       right: 3,
+            //       child: MyButton(
+            //         text: 'Adopt Me',
+            //         onTap: () {
+            //           Navigator.pushNamed(context, '/form_page');
+            //         },
+            //         height: 40,
+            //         width: 60,
+            //         myColor: Color.fromRGBO(255, 184, 77, 0.525),
+            //       ))
             ]),
 
             //name
