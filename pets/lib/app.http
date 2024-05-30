@@ -1,0 +1,11 @@
+PATCH  http://localhost:3000/adoption-applications/me/666ed5f18cd5ad6c6c8319eb
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJlbkBnbWFpbC5jb20iLCJzdWIiOiI2NjZlZDViNThjZDVhZDZjNmM4MzE5ZTYiLCJyb2xlIjoidXNlciIsImlhdCI6MTcxODUzOTg1OCwiZXhwIjoxNzE4NTQzNDU4fQ.xXHBl2PgNQVGV04_hFbHiq7CeiE8YTuK-k1QBV4qdw0
+
+{
+    "phoneNumber": "1234556",
+    "typeOfPet": "cat",
+    "gender": "male",
+    "ageRange": "young",
+    "previousPetOwnershipExperience": "none"
+}

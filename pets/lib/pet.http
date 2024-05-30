@@ -1,0 +1,7 @@
+PATCH http://localhost:3000/pets/6659b3e1278aa5d5b94187dc
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInN1YiI6IjY2NTZjN2I1MjRkODU0NTExYWMzOTA3YiIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxNzE1NjkxNSwiZXhwIjoxNzE3MTYwNTE1fQ.NSK7GOyKh_VPyHeEDfJ7XVjzHlmnKLJse8XW6BVyjjY
+
+{
+  "age": 6
+}
